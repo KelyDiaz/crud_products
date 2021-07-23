@@ -1,0 +1,6 @@
+--index-url https://gestionti0648:d6omthsxc2j3a6o5kipgiwwikhlecnt2jjir3utsdtibqhm2y6ja@pkgs.dev.azure.com/gestionti0648/b0629065-8048-42f2-b682-124f1521715f/_packaging/ArtifactsSecurity/pypi/simple/
+polaris-common==1.0.8
+
+drf_yasg
+django-cors-headers
+djangorestframework
