@@ -95,8 +95,8 @@ REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
     ),
-    'EXCEPTION_HANDLER': 'polaris.common.exception_handler.custom_exception_handler',
-    'DEFAULT_PAGINATION_CLASS': 'polaris.common.paginators.CustomPagination',
+    # 'EXCEPTION_HANDLER': 'polaris.common.exception_handler.custom_exception_handler',
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 20
 
 }

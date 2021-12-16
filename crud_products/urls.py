@@ -16,7 +16,7 @@ Including another URLconf
 from django.urls import path, include
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
-from polaris.common.utilities import CustomOpenAPISchemaGenerator
+
 from rest_framework.routers import SimpleRouter
 
 from crud_products.settings import SWAGGER_URL
@@ -28,7 +28,7 @@ schema_view = get_schema_view(
         default_version='v1',
         description="Microservicio de productos"
     ),
-    generator_class=CustomOpenAPISchemaGenerator,
+
     public=True,
     url=SWAGGER_URL
 )
